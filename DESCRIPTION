@@ -1,0 +1,18 @@
+Package: GapCNV
+Type: Package
+Title: GapCNV: A Comprehensive Framework for CNV Detection in Haploid Single-Cell DNA Sequencing Data
+Version: 1.0
+Authors: Xuanxuan Yu, Fei Qin, Shiwei Liu, Noah Brown, Guoshuai Cai, Jennifer L. Guler, Feifei Xiao
+Description: we developed a comprehensive statistical framework for CNV detection with scDNA-seq data from haploids (GapCNV).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    modSaRa,
+    DNAcopy,
+    mclust,
+    FLCNA,
+    GenomicRanges
+Depends:
+    R (>= 4.0.0)
+
