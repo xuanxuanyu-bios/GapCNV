@@ -14,7 +14,7 @@ GapCNV requires several R packages which requires manually installed: `modSaRa`,
 ```
 install.packages("devtools")
 library(devtools)
-install_github("FeifeiXiao-lab/GapCNV")
+install_github("xuanxuanyu-bios/GapCNV")
 ```
 
 # Running GapCNV
