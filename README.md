@@ -37,8 +37,8 @@ install_github("xuanxuanyu-bios/GapCNV")
 
 # Running GapCNV
 ## Examples
+The example is the read count matrix containing 3858 bins and 74 cells. If only bam files are available, `bam_to_counts` function should be used to convert bam files to read count matrix with designated bin size.
 ```
-The example has 3858 bins and 74 cells.
 data("count.mat")
 dim(count.mat)
 [1] 3858   74
