@@ -37,6 +37,16 @@ install_github("xuanxuanyu-bios/GapCNV")
 
 # Running GapCNV
 ## Examples
+```
+The example has 3858 bins and 74 cells.
+data("count.mat")
+dim(count.mat)
+[1] 3858   74
+
+data("ref_qc")
+ref_qc<-ref_qc
+```
+
 Quality control and normalization for GC content and mappability
 ```
 RC_QC <- Calling_rate_QC(RC=count.mat,ref_qc=ref_qc, 
