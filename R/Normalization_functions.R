@@ -8,7 +8,7 @@
 #' @param mapp.threshold bins with mappability samller than this threshold were removed.
 #' @return RC the read counts matrix with high calling rate
 #' @return ref_qc the reference genome information of the output RC matrix
-#' 
+#'  
 
 Calling_rate_QC<-function(RC,ref_qc,
                           cr.threshold=0.8,
@@ -214,3 +214,4 @@ GC.MAP.normalization<-function(RC, ref_qc){
 }
 
 # norl.res2<-GC.MAP.normalization(RC=count.mat2,ref_qc=ref_qc)
+
