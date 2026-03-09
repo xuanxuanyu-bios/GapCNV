@@ -2,7 +2,7 @@
 # library("GenomicAlignments")
 # library("GenomicRanges")
 # library("GenomeInfoDb")
-
+ 
 #' convert bam files to read count matrix with user defined bin size.
 #' this function perform converting bam files to read count matrix
 #' @param bam_files the full names of the bam files, inlcude the path and file names
