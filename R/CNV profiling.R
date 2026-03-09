@@ -2,7 +2,7 @@
 # library("DNAcopy")
 # library("mclust")
 # library("FLCNA")
-
+ 
 #'
 #' CNV detection: segmentation was performed by using CBS method, the priors for 3 CNV states: deletion, normal and duplication were generated using mclust package, and the posterior were updated using GMM. CNV states for segments were then determined
 #' this function perform CNV calling
