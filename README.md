@@ -9,7 +9,7 @@ Copy number variants (CNVs) are prevalent in both diploid and haploid genomes. S
 
 
 # Installation
-GapCNV requires several R packages which requires manually installed: [`modSaRa`](https://github.com/FeifeiXiao-lab/modSaRa),[`FLCNA`](https://github.com/FeifeiXiao-lab/FLCNA),[`GenomicRanges`](https://www.bioconductor.org/packages/devel/bioc/html/GenomicRanges.html), and [`DNAcopy`](https://bioconductor.org/packages/release/bioc/html/DNAcopy.html). 
+GapCNV requires several R packages which requires manually installed: [`modSaRa`](https://github.com/FeifeiXiao-lab/modSaRa),[`FLCNA`](https://github.com/FeifeiXiao-lab/FLCNA),[`GenomicRanges`](https://www.bioconductor.org/packages/devel/bioc/html/GenomicRanges.html), [`DNAcopy`](https://bioconductor.org/packages/release/bioc/html/DNAcopy.html), [`Rsamtools`](https://bioconductor.org/packages/release/bioc/html/Rsamtools.html). 
 
 ```
 install.packages("devtools")
