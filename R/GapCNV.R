@@ -10,7 +10,7 @@
 #'
 #'@export
 #'
-#'
+#' 
 GapCNV<-function(count.mat,
                  log2R,
                  ref,
