@@ -19,7 +19,7 @@ Calling_rate_QC<-function(RC,ref_qc,
   calling_rate <- apply(RC, 1, function(x){return(sum(x!=0)/length(x))})
   
   kept.bins       <- which(ref_qc$gc>GC.low & ref_qc$gc<GC.up 
-                          & ref_qc$mapp>0.9
+                          & ref_qc$mapp>mapp.threshold
                           & calling_rate >= cr.threshold)
   
   RC           <- RC[kept.bins,]
